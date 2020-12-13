@@ -1,0 +1,33 @@
+{
+  "name": "v-test",
+  "version": "1.0.0",
+  "description": "Simple Demo of using nightwatch for UI testing",
+  "main": "nightwatch.js",
+  "scripts": {
+    "test": "node nightwatch.js -e chrome tests",
+    "ghost-test": "node nightwatch.js -e chrome tests\\ghostTest.js",
+    "way2automation-test": "node nightwatch.js -e chrome tests\\way2automationTest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danrusu/v-test.git"
+  },
+  "keywords": [
+    "nightwatch",
+    "selenium",
+    "ui testing"
+  ],
+  "author": "danrusu",
+  "email": "dan.rusu.qa@gmail.com",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/danrusu/v-test/issues"
+  },
+  "dependencies": {
+    "chromedriver": "^87.0.2",
+    "dateformat": "^4.3.1",
+    "geckodriver": "^1.21.0",
+    "nightwatch": "^1.5.1",
+    "selenium-server": "^3.141.59"
+  }
+}

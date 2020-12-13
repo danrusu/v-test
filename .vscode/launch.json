@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "ghost-test",
+            "program": "${workspaceFolder}\\nightwatch.js",
+            "args": ["-e", "chrome", "tests/ghostTest.js"],
+            "outputCapture": "std"            
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "way2automation-test",
+            "program": "${workspaceFolder}\\nightwatch.js",
+            "args": ["-e", "chrome", "tests/way2automationTest.js"],
+            "outputCapture": "std"            
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "registrationFormData": {
+    "name": "Dan Rusu",
+    "phone": "0040720123456",
+    "email": "qatools.ro@gmail.com",
+    "country": "Romania",
+    "city": "Timisoara",
+    "username": "tester",
+    "password": "tester@work"
+  },
+  "dateFormat": "ISO 8601"
+}
